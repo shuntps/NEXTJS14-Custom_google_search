@@ -33,7 +33,7 @@ export default function SearchBox() {
             onClick={() => setTerm("")}
          />
          <AiOutlineSearch
-            className="text-3xl hidden sm:inline-flex text-blue-500 cursor-pointer border-l-2 pl-2"
+            className="text-3xl hidden sm:inline-flex text-gray-900 cursor-pointer border-l-2 pl-2"
             onClick={handleSubmit}
          />
       </form>
