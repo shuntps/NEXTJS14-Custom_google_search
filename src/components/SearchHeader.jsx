@@ -8,7 +8,7 @@ function SearchHeader() {
       <header className="sticky top-0 bg-white">
          <div className="flex w-full p-6 items-center justify-between">
             <Link href="/">
-               <h1 className="text-3xl text-gray-700 font-bold">
+               <h1 className="text-2xl md:text-3xl text-gray-700 font-bold">
                   {process.env.SITE_NAME}
                </h1>
             </Link>
@@ -19,7 +19,7 @@ function SearchHeader() {
                <RiSettings3Line className="bg-transparent hover:bg-gray-200 p-2 text-4xl rounded-full cursor-pointer" />
                <TbGridDots className="bg-transparent hover:bg-gray-200 p-2 text-4xl rounded-full cursor-pointer" />
             </div>
-            <button className="bg-gray-700 text-white px-5 py-2 ml-2 font-medium rounded-md hover:brightness-105 hover:bg-gray-800 hover:shadow-md transition-shadow">
+            <button className="bg-gray-700 text-white px-5 py-2 ml-2 font-medium rounded-md hover:brightness-105 hover:bg-gray-800 hover:shadow-md transition-shadow text-sm md:text-base">
                Connexion
             </button>
          </div>
