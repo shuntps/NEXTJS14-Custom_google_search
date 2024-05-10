@@ -2,7 +2,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-   title: "SHT Labs",
+   title: "SHT Lab",
    description: "Google clone built with Next.js and tailwind CSS.",
 };
 
